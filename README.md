@@ -2,6 +2,10 @@
 
 Two Python scripts that bulk-export AWS Lambda deployment packages and IAM role definitions from an account into local files. Useful for disaster-recovery snapshots, pre-migration audits, or producing a plain-text inventory of what's running.
 
+## Architecture
+
+![Architecture Diagram](./architecture.png)
+
 ## What Each Script Does
 
 ### `functions.py`
